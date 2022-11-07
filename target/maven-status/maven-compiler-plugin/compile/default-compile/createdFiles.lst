@@ -1,0 +1,5 @@
+com\example\app\drivers\AndroidDriverInit.class
+com\example\app\base\BasePageObject.class
+com\example\app\pages\Logout.class
+com\example\app\pages\Login.class
+com\example\app\pages\Register.class
