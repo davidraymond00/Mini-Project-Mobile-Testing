@@ -148,7 +148,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"Logout","type":"feature","href":"1499eced091e644a00a431c5dd73650d9260906b3dc121db73b52b3c9babe9c2.html","nodes":[],"selectable":false,"tags":["","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}];
+            var requirementsTree = [];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -193,7 +193,6 @@
             <span class="breadcrumbs">
             <a href='index.html'>Home</a> > <a href="capabilities.html">Requirements</a>
 
-                > <a href="d9a41c0d2cb8bc0cbaaa7971a071d0116e7720dc367c8253b326d65cd2696fd7.html">Math</a>
 
 
                 > <span class="truncate-40">Logout</span>
@@ -221,7 +220,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-11-2022 14:15</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated </span>
     <br style="clear:left"/>
 </div>
 
@@ -235,23 +234,11 @@
                         <div>
                             <div clas="table">
                                 <div class="row">
-                                    <div class="col-sm-8">
+                                    <div class="col-sm-12">
                                     <span>
                                             <h2><i class="fa fa-book"></i> Feature:  Logout</h2>
                                         </span>
                                 </div>
-                                    <div class="col-sm-4">
-                                        <span class="feature-tags">
-                                                <p class="tag">
-                                                    <span class="badge tag-badge" style="background:default;">
-                                                        <i class="fa fa-tag"></i>&nbsp;<a class="tagLink"
-                                                                                          style="background:default;"
-                                                                                          href="e61ff0167d1662a4e5bc6b5b4a90e56e61872ec330f316508834a25df8ebaaed.html">Logout
-                                                        (tag)</a>
-                                                    </span>
-                                                </p>
-                                        </span>
-                                    </div>
                                 </div>
                                 </div>
                             </div>
@@ -286,71 +273,10 @@ So i can logout my account
                                     <div class="row">
                                         <div class="col-sm-12">
 
+                                            <h3>Requirements Overview</h3>
 
-                                            <h3>Scenarios</h3>
+                                            <div id="tree"></div>
 
-                                            <div id="toc">
-                                                <table class="table" id="toc-table">
-                                                        <tr>
-                                                            <td style="width:95%;" class="toc-title">
-                                                                <a href="#f849e432b7167c11e8d24f3067344ef18c222a983ad610709343e1861546d192" title="View scenario details" >Logout from product page</a>
-
-
-                                                            </td>
-                                                            <td style="width:5%;">
-                                                                <table>
-                                                                    <tr>
-                                                                        <td>
-                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                               href="c86f7c0b537f7162fb6da563249990a3897ce051157e98c3b10b347da8a378fb.html"
-                                                                               title="View test results">
-                                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                                                            </a>
-
-                                                                        
-                                                                        </td>
-                                                                        <td>
-                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                               href="c86f7c0b537f7162fb6da563249990a3897ce051157e98c3b10b347da8a378fb.html"
-                                                                               title="View test results">
-                                                                                <i class="fas fa-search-plus"></i>
-                                                                            </a>
-                                                                        </td>
-                                                                    </tr>
-                                                                </table>
-                                                            </td>
-                                                        </tr>
-                                                </table>
-
-                                            </div>
-
-                                            <h3>Scenario details</h3>
-
-                                                <div class="scenario-docs card" id="f849e432b7167c11e8d24f3067344ef18c222a983ad610709343e1861546d192">
-                                                    <div class="scenario-docs card-header success" style="min-height:1.5em;">
-                                                        <div>
-                                                            <span class="scenario-heading">
-                                                                <a href="c86f7c0b537f7162fb6da563249990a3897ce051157e98c3b10b347da8a378fb.html" title="View test results">Logout from product page</a>
-                                                            </span>
-                                                            <span class="scenario-result-icon">
-                                                                
-
-                                                                    <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="scenario-docs card-body">
-                                                            <p>Given I am on the dashboard</p>
-                                                            <p>When I click login icon</p>
-                                                            <p>And I input valid email</p>
-                                                            <p>And I input valid password</p>
-                                                            <p>And I click login button</p>
-                                                            <p>And I click logout button</p>
-                                                            <p>Then I go to login page</p>
-                                                        <div class="examples">
-                                                        </div>
-                                                    </div>
-                                                </div>
                                         </div>
                                     </div>
                                 </div>
@@ -359,41 +285,7 @@ So i can logout my account
                             <div id="results" class="tab-pane fade">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-sm-4">
-
-                                            <div style="width:300px;" class="chart-container automated-and-manual-results">
-                                                <div class="ct-chart ct-square"></div>
-                                            </div>
-                                            <script>
-
-                                                var labels = ['100%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
-                                                // Our series array that contains series objects or in this case series data arrays
-
-                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 0}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
-
-                                                // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
-                                                // as you saw in the previous example
-                                                var options = {
-                                                    width: 350,
-                                                    height: 300
-                                                };
-
-                                                $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-                                                    new Chartist.Pie('.ct-chart', {
-                                                        series: series,
-                                                        labels: labels,
-                                                    }, {
-                                                        donut: true,
-                                                        donutWidth: 60,
-                                                        donutSolid: true,
-                                                        startAngle: 270,
-                                                        showLabel: true
-                                                    }, options);
-                                                });
-
-                                            </script>
-                                        </div>
-                                        <div class="col-sm-8">
+                                        <div class="col-sm-12">
 
                                         <table class="table">
                                             <thead>
@@ -406,12 +298,11 @@ So i can logout my account
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                                    <td class="aggregate-result-count">
-                                                                        <a href="e199cccaffba94529b42cfc6033e5338f1bd450dad36a5e951897fa046473c9c.html"><i
-                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
+                                                                    <td class="aggregate-result-count"><i
+                                                                            class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
                                                                     </td>
-                                                <td class="automated-stats">1</td>
-                                                <td class="automated-stats">100%</td>
+                                                <td class="automated-stats">0</td>
+                                                <td class="automated-stats"> </td>
                                             </tr>
                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -465,7 +356,7 @@ So i can logout my account
                                             </tr>
                                             <tr class="summary-stats">
                                                 <td class="aggregate-result-count">Total</td>
-                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">0</td>
                                                 <td class="automated-stats"></td>
                                             </tr>
                                             </tbody>
@@ -487,11 +378,11 @@ So i can logout my account
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td>14s</td>
-                                                        <td>14ms</td>
-                                                        <td>14s</td>
-                                                        <td>14s</td>
-                                                        <td>14s</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
+                                                        <td>0ms</td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -503,31 +394,7 @@ So i can logout my account
                                             <div class="col-sm-12">
                                                 <h3><i class="fas fa-cogs"></i> Automated Tests</h3>
 
-                                            <table class="scenario-result-table table" id="scenario-results">
-                                                <thead>
-                                                <tr>
-                                                    <th class="test-name-column">Scenario</th>
-                                                    <th>Steps</th>
-                                                    <th>Start Time</th>
-                                                    <th>Duration</th>
-                                                    <th>Result</th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr class="scenario-result SUCCESS">
-                                                    <td>
-                                                            <a href="c86f7c0b537f7162fb6da563249990a3897ce051157e98c3b10b347da8a378fb.html">Logout from product page</a>
-                                                    </td>
-                                                    <td>7</td>
-                                                    <td> </td>
-                                                    <td> </td>
-                                                    <td>
-                                                            <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
-                                                                style="display:none">SUCCESS</span>
-                                                    </td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
+                                            No automated tests were executed
 
                                             </div>
                                         </div>

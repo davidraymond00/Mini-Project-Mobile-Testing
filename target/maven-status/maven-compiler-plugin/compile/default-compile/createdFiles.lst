@@ -3,3 +3,4 @@ com\example\app\base\BasePageObject.class
 com\example\app\pages\Logout.class
 com\example\app\pages\Login.class
 com\example\app\pages\Register.class
+com\example\app\pages\Beli.class

@@ -3,3 +3,4 @@ com\example\steps\LogoutStep.class
 com\example\acceptancetests\AcceptanceTestSuite.class
 com\example\hook\AndroidDriverHook.class
 com\example\steps\RegisterStep.class
+com\example\steps\BeliStep.class

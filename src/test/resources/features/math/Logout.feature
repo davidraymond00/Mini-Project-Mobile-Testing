@@ -7,8 +7,8 @@ Feature: Logout
   Scenario: Logout from product page
     Given I am on the dashboard
     When I click login icon
-    And I input valid email
-    And I input valid password
+    And I register valid email
+    And I register valid password
     And I click login button
     And I click logout button
     Then I go to login page

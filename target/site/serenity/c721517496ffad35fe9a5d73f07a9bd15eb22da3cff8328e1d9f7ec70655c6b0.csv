@@ -1,7 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Login","Login with null email and null password","SUCCESS","2022-11-07T14:13:42.56105+07:00[Asia/Bangkok]","0.0","14.66"
-"Login","Login with invalid email and null password","SUCCESS","2022-11-07T14:13:57.2383137+07:00[Asia/Bangkok]","0.0","12.62"
-"Login","Login with null email and invalid password","SUCCESS","2022-11-07T14:14:09.8675446+07:00[Asia/Bangkok]","0.0","13.23"
-"Login","Login with valid email and null password","SUCCESS","2022-11-07T14:14:23.1049102+07:00[Asia/Bangkok]","0.0","12.88"
-"Login","Login with null email and valid password","SUCCESS","2022-11-07T14:14:36.0047639+07:00[Asia/Bangkok]","0.0","13.26"
-"Login","Login with valid email and valid password","SUCCESS","2022-11-07T14:14:49.2717405+07:00[Asia/Bangkok]","0.0","23.98"

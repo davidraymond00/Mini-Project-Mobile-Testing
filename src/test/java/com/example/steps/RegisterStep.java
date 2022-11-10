@@ -59,4 +59,9 @@ public class RegisterStep {
     public void iRegisterValidPassword() {
         register.inputValidPasswordd("000999");
     }
+
+    @Then("I get error message password can not emptyy")
+    public void iGetErrorMessagePasswordCanNotEmptyy() {
+        register.passwordCanNotEmpty();
+    }
 }

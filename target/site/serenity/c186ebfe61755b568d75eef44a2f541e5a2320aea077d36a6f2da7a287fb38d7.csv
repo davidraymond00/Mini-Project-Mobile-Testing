@@ -1,5 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Register","Register with null fullname null email null password","SUCCESS","2022-11-07T14:15:28.0628172+07:00[Asia/Bangkok]","0.0","16.45"
-"Register","Register with valid fullname null email null password","SUCCESS","2022-11-07T14:15:44.5270928+07:00[Asia/Bangkok]","0.0","16.94"
-"Register","Register with null fullname valid email null password","SUCCESS","2022-11-07T14:16:01.4703439+07:00[Asia/Bangkok]","0.0","15.9"
-"Register","Register with null fullname null email valid password","SUCCESS","2022-11-07T14:16:17.3787351+07:00[Asia/Bangkok]","0.0","15.44"
