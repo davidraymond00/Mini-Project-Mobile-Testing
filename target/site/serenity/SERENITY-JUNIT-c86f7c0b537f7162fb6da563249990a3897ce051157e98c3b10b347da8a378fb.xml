@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Logout" skipped="0" tests="1" time="45.19" timestamp="2022-11-11 12:01:31"><testcase name="Logout from product page"><error message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-GM2FAMT', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: C:\Users\Krisnayoga\sample-..., appPackage: com.example.frontend_mobile, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Krisnayoga\sample-..., automationName: UiAutomator2, platformName: android, platformVersion: 11}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2007J20CG, deviceName: 16941502, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 16941502, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 91, takesScreenshot: true, viewportRect: {height: 2174, left: 0, top: 91, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 54e2ed25-0ea7-447b-a00f-72a194e1837c&#10;*** Element info: {Using=xpath, value=&#9;&#10;/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[3]}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-GM2FAMT', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.NoSuchElementException">An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GM2FAMT', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Krisnayoga\sample-..., appPackage: com.example.frontend_mobile, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Krisnayoga\sample-..., automationName: UiAutomator2, platformName: android, platformVersion: 11}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2007J20CG, deviceName: 16941502, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 16941502, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 91, takesScreenshot: true, viewportRect: {height: 2174, left: 0, top: 91, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 54e2ed25-0ea7-447b-a00f-72a194e1837c
+*** Element info: {Using=xpath, value=	
+/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[3]}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GM2FAMT', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: AndroidDriver</error><system-err>An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GM2FAMT', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\Krisnayoga\sample-..., appPackage: com.example.frontend_mobile, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\Krisnayoga\sample-..., automationName: UiAutomator2, platformName: android, platformVersion: 11}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2007J20CG, deviceName: 16941502, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 16941502, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 91, takesScreenshot: true, viewportRect: {height: 2174, left: 0, top: 91, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 54e2ed25-0ea7-447b-a00f-72a194e1837c
+*** Element info: {Using=xpath, value=	
+/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[3]}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GM2FAMT', ip: '192.168.1.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: driver.version: AndroidDriver&#13;
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)&#13;
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)&#13;
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)&#13;
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)&#13;
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)&#13;
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;
+sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.find(BasePageObject.java:32)&#13;
+sample.mobile.automation@1.0-SNAPSHOT/com.example.app.base.BasePageObject.click(BasePageObject.java:48)&#13;
+sample.mobile.automation@1.0-SNAPSHOT/com.example.app.pages.Register.inputValidPasswordd(Register.java:63)&#13;
+sample.mobile.automation@1.0-SNAPSHOT/com.example.steps.RegisterStep.iRegisterValidPassword(RegisterStep.java:60)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:63)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:99)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:71)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:234)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)&#13;
+</system-err></testcase></testsuite>

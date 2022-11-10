@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Register","Register with null fullname null email null password","SUCCESS","2022-11-11T00:02:16.8738467+07:00[Asia/Bangkok]","0.0","20.17"
+"Register","Register with valid fullname null email null password","SUCCESS","2022-11-11T00:02:37.0610394+07:00[Asia/Bangkok]","0.0","19.49"
+"Register","Register with null fullname valid email null password","SUCCESS","2022-11-11T00:02:56.5674593+07:00[Asia/Bangkok]","0.0","21.18"
+"Register","Register with null fullname null email valid password","SUCCESS","2022-11-11T00:03:17.7567865+07:00[Asia/Bangkok]","0.0","20.19"
+"Register","Register with valid fullname valid email null password","SUCCESS","2022-11-11T00:03:37.9645188+07:00[Asia/Bangkok]","0.0","19.97"
+"Register","Register with valid fullname null email valid password","SUCCESS","2022-11-11T00:03:57.9446038+07:00[Asia/Bangkok]","0.0","20.79"
+"Register","Register with null fullname valid email valid password","SUCCESS","2022-11-11T00:04:18.7520621+07:00[Asia/Bangkok]","0.0","21.31"

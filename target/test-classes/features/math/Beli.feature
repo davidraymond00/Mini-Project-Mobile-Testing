@@ -1,5 +1,5 @@
 @Beli
-Feature: Login
+Feature: Beli
   As a user
   I want to click beli
   So i can manage my list beli
